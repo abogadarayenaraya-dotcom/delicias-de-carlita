@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tortas Personalizadas — Los Deleites de Carlita</title>
+  <meta name="description" content="Tortas personalizadas para cumpleaños, matrimonios, baby shower y toda ocasión especial. Diseños únicos hechos a mano.">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo-clean.png" alt="Los Deleites de Carlita" />
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tortas.html" class="activo">Tortas</a></li>
+      <li><a href="kuchen.html">Kuchen</a></li>
+      <li><a href="pedido.html">Cómo Pedir</a></li>
+      <li><a href="sobre.html">Carlita</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="https://wa.me/56962104980" target="_blank" class="nav-wsp-btn">WhatsApp</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <div class="container">
+    <a href="index.html">Inicio</a>
+    <span>›</span>
+    Tortas Personalizadas
+  </div>
+</div>
+
+<div class="page-hero">
+  <span class="section-label">✦ Hecho a Pedido ✦</span>
+  <h1>Tortas Personalizadas<br>para Cada Ocasión</h1>
+  <p>Diseños únicos, sabores caseros y decoración personalizada.<br>Hechas a pedido, con dedicación artesanal.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="info-block">
+      <strong>¿Cómo funciona?</strong> Cada torta es encargada con al menos <strong>72 horas de anticipación</strong>. Nos contactas por WhatsApp, acordamos el diseño, sabores y tamaño, y nosotros nos encargamos del resto. ¡Simple y delicioso!
+    </div>
+
+    <div style="text-align:center; margin-bottom:40px;">
+      <span class="section-label">✦ Explora por Categoría ✦</span>
+    </div>
+
+    <div class="category-tabs" id="categoryTabs">
+      <button class="tab-btn activo" data-cat="all">Todas</button>
+      <button class="tab-btn" data-cat="cumpleanos">Cumpleaños</button>
+      <button class="tab-btn" data-cat="tematica">Temáticas</button>
+      <button class="tab-btn" data-cat="clasica">Clásicas</button>
+      <button class="tab-btn" data-cat="especial">Especiales</button>
+    </div>
+
+    <div class="product-grid" id="tortasGrid">
+
+      <div class="product-card" data-cat="cumpleanos">
+        <img src="images/torta-fresa-birthday.jpeg" alt="Torta cumpleaños fresas" />
+        <div class="product-card-body">
+          <h3>Torta Cumpleaños con Fresas</h3>
+          <p>Base esponjosa, crema chantilly artesanal y fresas naturales frescas. Elegante y deliciosa.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="cumpleanos">
+        <img src="images/torta-birthday-open.jpeg" alt="Torta mil hojas" />
+        <div class="product-card-body">
+          <h3>Torta Mil Hojas Artesanal</h3>
+          <p>Capas crujientes de hojarasca, rellenas de manjar casero y merengue. Un clásico chileno premium.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="clasica">
+        <img src="images/torta-fresa-birthday2.jpeg" alt="Torta clásica fresas" />
+        <div class="product-card-body">
+          <h3>Torta Blanca con Fresas Glaseadas</h3>
+          <p>Crema de mantequilla artesanal con un diseño limpio y elegante. Ideal para cualquier celebración.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="especial">
+        <img src="images/torta-valentines-merengue.jpeg" alt="Torta San Valentín" />
+        <div class="product-card-body">
+          <h3>Torta San Valentín Merengue</h3>
+          <p>Merengue artesanal flameado en tonos dorados. Perfecta para sorprender en el día del amor.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="tematica">
+        <img src="images/torta-flores-cumple.jpeg" alt="Torta girasoles cumpleaños" />
+        <div class="product-card-body">
+          <h3>Torta Floral Girasoles</h3>
+          <p>Decoración botánica con flores naturales y velas especiales. Única en su estilo.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="tematica">
+        <img src="images/torta-girasoles-blanca.jpeg" alt="Torta girasoles blanca" />
+        <div class="product-card-body">
+          <h3>Torta de Girasoles Clásica</h3>
+          <p>Base blanca rústica con corona de girasoles y flores silvestres. Estilo campo y elegancia.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="tematica">
+        <img src="images/torta-navidad.jpeg" alt="Torta navideña" />
+        <div class="product-card-body">
+          <h3>Torta Navideña Festiva</h3>
+          <p>Con figuras decorativas de Navidad, crema verde y roja artesanal. ¡Perfecta para las fiestas!</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="especial">
+        <img src="images/torta-navidad2.jpeg" alt="Torta navidad 2" />
+        <div class="product-card-body">
+          <h3>Torta Gran Navidad</h3>
+          <p>Árbol de Navidad, Papá Noel y regalos en azúcar. Decoración navideña de lujo.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="clasica">
+        <img src="images/torta-chocolate.jpeg" alt="Torta de chocolate premium" />
+        <div class="product-card-body">
+          <h3>Torta Selva Negra Premium</h3>
+          <p>Cubierta de maní triturado y figuras de chocolate artesanal. Intensa, rica y sofisticada.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="especial">
+        <img src="images/torta-corazon.jpeg" alt="Torta corazón San Valentín" />
+        <div class="product-card-body">
+          <h3>Torta Corazón San Valentín</h3>
+          <p>En forma de corazón, con jaula de chocolate artesanal y merengue. Una declaración de amor.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="cumpleanos">
+        <img src="images/torta-girasoles-rosas.jpeg" alt="Torta rosetas girasoles" />
+        <div class="product-card-body">
+          <h3>Torta Rosetas y Girasoles</h3>
+          <p>Cubierta con rosetas de crema y girasoles frescos. Ideal para celebraciones de primavera.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="tematica">
+        <img src="images/torta-girasoles-triple.jpeg" alt="Set tortas para evento" />
+        <div class="product-card-body">
+          <h3>Set de Tortas para Eventos</h3>
+          <p>Tres tortas coordinadas para matrimonios, cumpleaños de 15 o eventos especiales.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div style="text-align:center; padding:40px 0;">
+      <span class="section-label">✦ ¿Listo para tu Pedido? ✦</span>
+      <h2 style="margin-bottom:16px;">¿Tienes en mente el diseño ideal?</h2>
+      <p style="margin:0 auto 32px; font-style:italic; text-align:center;">Escríbenos y creamos juntos la torta perfecta para tu momento especial.</p>
+      <a href="https://wa.me/56962104980?text=Hola%20Carlita!%20Quiero%20pedir%20una%20torta%20personalizada%20%F0%9F%8E%82" target="_blank" class="btn btn-wsp">
+        <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Pedir mi Torta Ahora
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo-clean.png" alt="Los Deleites de Carlita" />
+        <p>Tortas personalizadas y kuchen artesanales hechos con amor y dedicación. Cada creación es única, como el momento que celebra.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tortas.html">Tortas Personalizadas</a></li>
+          <li><a href="kuchen.html">Kuchen Artesanales</a></li>
+          <li><a href="pedido.html">Cómo Hacer tu Pedido</a></li>
+          <li><a href="sobre.html">Sobre Carlita</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:var(--dorado)"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <a href="https://wa.me/56962104980" target="_blank">+56 9 6210 4980</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:var(--dorado)"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <a href="mailto:losdeleitesdecarlita@gmail.com">losdeleitesdecarlita@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Los Deleites de Carlita · Todos los derechos reservados</span>
+      <span>Hecho con ❤ y harina artesanal</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/56962104980" target="_blank" class="wsp-float" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', () => {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+
+// Filter tabs
+document.getElementById('categoryTabs').addEventListener('click', e => {
+  if (!e.target.matches('.tab-btn')) return;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('activo'));
+  e.target.classList.add('activo');
+  const cat = e.target.dataset.cat;
+  document.querySelectorAll('#tortasGrid .product-card').forEach(card => {
+    card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>
